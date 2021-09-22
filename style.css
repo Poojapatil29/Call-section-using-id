@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#home{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(Nature6.jpeg)no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
+    color: white;
+   
+}
+
+.h1{
+    font-size: 4em;
+    font-weight: bold; 
+    text-align: center;
+}
+
+.navbar-brand{
+  
+    font-weight: bold; 
+    text-align: center;
+}
+
+.p1{
+    font: italic;
+    font-size: 1.5em; 
+}
+
+
+.btn1{
+    height: 45px;
+    width: 120px;
+    background-color: #ff0000;
+    color: white;
+    outline: none;
+    border: 2px solid white;
+    font-weight: bold; 
+   
+       
+}
+
+
+.btn2 {
+
+        height: 45px;
+        width: 120px;
+        background-color: transparent;
+        color: white;
+        outline: none;
+        border: 2px solid white;
+        font-weight: bold;
+        margin: left 10px;
+       
+        
+    }
+
+.btn2:hover{
+    background-color: #ff0000;
+    color: white;
+    border: none;
+}   
+
+#feature{}
+
+.p2{
+    color: gray;
+}
+
+#icon{
+    height: 100px;
+    width: 100px;
+    background-color: turquoise;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 45px;
+    display: inline block;
+    /* text-align: center; */
+   
+}
+
+ /* #icon:hover{ 
+    background-color: black;
+    color: white;
+    height: 104;
+    width: 104;
+    transition: 0.50s;
+
+} */
+
+.p3{
+    font-size: 1.3rem;
+    color: rgb(173, 158, 158);
+
+}
+
+.p3{
+    color: gray;
+}
+
+.image-fluid{
+    width: 200px;
+}
+
+#service1{
+    background-color: white;
+    padding: 20px 0;
+}
+
+ .p4{
+    color: gray;
+}
+
+.fab{
+   color: aquamarine ;
+   font-size: 60px;
+   padding-left: 25px;
+   
+}
+
+.gallery .img-fluid{
+    width: 285px;
+    height: 300px;
+    display: inline-block;
+    border-left: 1px solid white;
+    transition: transform 1s, filter 2s ease-in-out;
+}
+
+.img-fluid:hover{
+    transform: scale(0.9);
+}
+
+.btn{
+    background-color: turquoise;
+    color: white;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.letter{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.letter input{
+    height: 45px;
+    width: 43%;
+    background: gray;
+    color: white;
+}
+
+.letter .fab{
+    font-size: 30px;
+    color: white;
+    padding: 0 20px;
+}
+
+.footer{
+    background: rgb(160, 154, s154) ;
+    color: gr;
+}
